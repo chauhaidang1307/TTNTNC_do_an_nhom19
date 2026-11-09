@@ -1,0 +1,8 @@
+numpy==2.2.6
+pytest==9.2.0
+matplotlib==3.10.9
+pandas==2.3.3
+
+# torch KHÔNG nằm trong file này (cài thẳng từ requirements sẽ ra bản CPU).
+# Cài riêng bằng terminal (đã chạy thành công: torch 2.14.1+cu132, Python 3.10):
+#   python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cu132

@@ -1,0 +1,12 @@
+﻿# Môi trường
+.venv/
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# Editor
+.vscode/
+# Tạm thời chưa đưa lên git (xóa 2 dòng này khi muốn up)
+CLAUDE.md
+NHAT_KY.md
